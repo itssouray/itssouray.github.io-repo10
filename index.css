@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.details{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.contact{
+    width: 100%;
+    padding:5px 10px;
+}
+
+.input-f{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.input-f img{
+    width: 5%;
+}
+
+.input-f input{
+    width: 90%;
+    padding:13px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.address{
+    margin-top: 30px;
+    width: 100%;
+    padding:5px 10px;
+}
+
+.lower{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.input-f2{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.input-f2 img{
+    width: 15%;
+}
+
+.input-f2 input{
+    width: 50%;
+    padding:13px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.confirm{
+    width: 100%;
+    padding:5px 10px;
+}
+
+.confirm input{
+    padding: 5px;
+}
+
+.confirm-btn{
+    width: 70%;
+}
+
+.confirm-btn button{
+    float: right;
+    background:#ef8d1d;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.confirm-btn button:active{
+    background: #c46c07;
+}
+
+
+
+.result{
+    width: 40%;
+    height: min-content;
+    margin: 30px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: whitesmoke; 
+}
+
+.top{
+    width: 100%;
+    margin:10px 15px ;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.img{
+    border-radius: 20px;
+    background-size: cover;
+    padding: 70px 86px;
+}
+.i1{
+    background-image: url("photo1.png");
+}
+.i2{
+    background-image: url("photo2.png");
+}
+.product-det{
+    width: 43%;
+}
+
+.product-det span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-det span h3{
+    color: #ef8d1d;
+}
+.product-det span small{
+    text-decoration: line-through;
+}
+
+.set-val{
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(168, 168, 168);
+    font-size: 18px;
+    font-weight: bolder;
+}
+.set-val button{
+    background-color: rgb(196, 196, 196);
+    color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 5px;  
+    padding: 4px 9px;
+}
+.set-val button:active{
+    background: rgb(153, 153, 153);;
+}
+
+.bottom{
+    width: 85%;
+    margin:30px 0px ;
+}
+
+.shipping{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.b1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+
+@media  screen and (max-width:800px){
+        .main{
+            display: flex;
+            flex-direction:column-reverse;
+            width: 100%;
+        }
+        .details{
+            width: 100%;
+            margin: 50px 0px;
+        }
+         
+        .result{
+            width: 100%;
+            margin: 0;
+        }
+
+        .input-f,
+        .confirm,
+        .confirm-btn
+        {
+            width: 90%;
+            margin-top: 10px;
+        }
+        
+        .lower{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+        }
+        .input-f2{
+            width: 90%;
+        }
+
+        .box{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+}   
